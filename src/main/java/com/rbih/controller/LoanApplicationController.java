@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.rbih.domain.enums.ApplicationStatus;
-import com.rbih.dto.request.ApplicantRequest;
 import com.rbih.dto.request.ApplicationRequest;
 import com.rbih.dto.response.ApplicationResponse;
 import com.rbih.service.LoanApplicationService;
