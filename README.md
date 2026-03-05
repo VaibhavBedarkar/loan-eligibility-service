@@ -59,7 +59,7 @@ java -jar target/*.jar
 The application will start on:
 
 ```
-http://localhost:8888
+http://localhost:8888/v1/api/rbih
 ```
 
 ---
@@ -87,7 +87,9 @@ http://localhost:8888/v1/api/rbih/h2-console
 Typical connection settings:
 
 ```
-JDBC URL: jdbc:h2:mem:testdb
+
+
+JDBC URL: jdbc:h2:mem:loanDB
 Username: sa
 Password: (leave empty unless configured)
 ```
