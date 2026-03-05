@@ -6,6 +6,9 @@ import java.util.List;
 import com.rbih.domain.enums.RejectionReason;
 import com.rbih.domain.enums.RiskBand;
 
+import lombok.Builder;
+
+@Builder
 public class LoanDecision {
 
 	private RiskBand riskBand;
